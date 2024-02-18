@@ -1,0 +1,92 @@
+Chronologic VCS simulator copyright 1991-2019
+Contains Synopsys proprietary information.
+Compiler version P-2019.06-SP2-1_Full64; Runtime version P-2019.06-SP2-1_Full64;  Oct 16 11:28 2020
+VCD+ Writer P-2019.06-SP2-1_Full64 Copyright (c) 1991-2019 by Synopsys Inc.
+The file '/DCNFS/users/student/lkim/LAB3/inter.vpd' was opened successfully.
+0 <--0 means reading,1 means writing
+  0 is written to address 0
+Addr0:   0  AND Addr0:   0 
+
+1 <--0 means reading,1 means writing
+  2 is written to address 0
+Addr1:   0  AND Addr1:   0 
+
+0 <--0 means reading,1 means writing
+  0 is written to address 0
+Addr0:   2  AND Addr1:   0 
+
+1 <--0 means reading,1 means writing
+  3 is written to address 1
+Addr0:   2  AND Addr0:   2 
+
+0 <--0 means reading,1 means writing
+  0 is written to address 0
+Addr0:   2  AND Addr1:   3 
+
+1 <--0 means reading,1 means writing
+  4 is written to address 2
+Addr0:   2  AND Addr0:   2 
+
+0 <--0 means reading,1 means writing
+  0 is written to address 0
+Addr1:   3  AND Addr2:   4 
+
+1 <--0 means reading,1 means writing
+  3 is written to address 2
+Addr0:   2  AND Addr2:   3 
+
+0 <--0 means reading,1 means writing
+  0 is written to address 0
+Addr0:   2  AND Addr2:   3 
+
+$finish called from file "tb.v", line 96.
+$finish at simulation time                   90
+Simulation complete, time is 90.
+Chronologic VCS simulator copyright 1991-2019
+Contains Synopsys proprietary information.
+Compiler version P-2019.06-SP2-1_Full64; Runtime version P-2019.06-SP2-1_Full64;  Oct 16 11:29 2020
+VCD+ Writer P-2019.06-SP2-1_Full64 Copyright (c) 1991-2019 by Synopsys Inc.
+The file '/DCNFS/users/student/lkim/LAB3/inter.vpd' was opened successfully.
+0 <--0 means reading,1 means writing
+  0 is written to address 0
+Addr0:   0  AND Addr0:   0 
+
+1 <--0 means reading,1 means writing
+  2 is written to address 0
+Addr1:   0  AND Addr1:   0 
+
+0 <--0 means reading,1 means writing
+  0 is written to address 0
+Addr0:   2  AND Addr1:   0 
+
+1 <--0 means reading,1 means writing
+  3 is written to address 1
+Addr0:   2  AND Addr0:   2 
+
+0 <--0 means reading,1 means writing
+  0 is written to address 0
+Addr0:   2  AND Addr1:   3 
+
+1 <--0 means reading,1 means writing
+  4 is written to address 2
+Addr0:   2  AND Addr0:   2 
+
+0 <--0 means reading,1 means writing
+  0 is written to address 0
+Addr1:   3  AND Addr2:   4 
+
+1 <--0 means reading,1 means writing
+  3 is written to address 2
+Addr0:   2  AND Addr2:   3 
+
+0 <--0 means reading,1 means writing
+  0 is written to address 0
+Addr0:   2  AND Addr2:   3 
+
+$finish called from file "tb.v", line 96.
+$finish at simulation time                   90
+Simulation complete, time is 90.
+           V C S   S i m u l a t i o n   R e p o r t 
+Time: 90
+CPU Time:      0.140 seconds;       Data structure size:   0.0Mb
+Fri Oct 16 11:32:13 2020

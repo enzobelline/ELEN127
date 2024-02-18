@@ -1,0 +1,36 @@
+Chronologic VCS simulator copyright 1991-2019
+Contains Synopsys proprietary information.
+Compiler version P-2019.06-SP2-1_Full64; Runtime version P-2019.06-SP2-1_Full64;  Sep 30 14:49 2020
+VCD+ Writer P-2019.06-SP2-1_Full64 Copyright (c) 1991-2019 by Synopsys Inc.
+The file '/DCNFS/users/student/lkim/LAB1/inter.vpd' was opened successfully.
+117, 121,  57, 119
+121, 117, 119,  57
+ 57, 119, 117, 121
+119,  57, 121, 117
+118,  30,  56, 115
+ 30, 118, 115,  56
+ 56, 115, 118,  30
+115,  56,  30, 118
+$finish called from file "tb.v", line 40.
+$finish at simulation time                   80
+Simulation complete, time is 80.
+Chronologic VCS simulator copyright 1991-2019
+Contains Synopsys proprietary information.
+Compiler version P-2019.06-SP2-1_Full64; Runtime version P-2019.06-SP2-1_Full64;  Sep 30 15:12 2020
+VCD+ Writer P-2019.06-SP2-1_Full64 Copyright (c) 1991-2019 by Synopsys Inc.
+The file '/DCNFS/users/student/lkim/LAB1/inter.vpd' was opened successfully.
+117, 121,  57, 119
+121, 117, 119,  57
+ 57, 119, 117, 121
+119,  57, 121, 117
+118,  30,  56, 115
+ 30, 118, 115,  56
+ 56, 115, 118,  30
+115,  56,  30, 118
+$finish called from file "tb.v", line 40.
+$finish at simulation time                   80
+Simulation complete, time is 80.
+           V C S   S i m u l a t i o n   R e p o r t 
+Time: 80
+CPU Time:      0.130 seconds;       Data structure size:   0.0Mb
+Wed Sep 30 15:14:22 2020

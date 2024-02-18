@@ -1,0 +1,42 @@
+15:32:55    16 -->                                                             [tcl] ucliGUI::connect -toolargs -ucligui -toolexe ./simv -pid 23068 -toolin /tmp/vcs_20201112233244_23060_lkim..stdin -toolout /tmp/vcs_20201112233244_23060_lkim..stdout  
+15:32:55    17 -->                                                                 [tcl] set ucliGUI::state
+15:32:55    18 -->                                                                     [tcl] gui_update_simulator_buttons
+15:32:56    19 -->                                                                         [tcl] set ucliGUI::state
+15:32:56    20 -->                                                                             [tcl] ucliCore::getToolPID
+15:32:56    21 -->                                                                                 [tcl] synopsys::env hasTB
+15:32:56    22 -->                                                                                     [tcl] trigger_hier_stack_context_switch 0
+15:32:56    23 -->                                                                                         [tcl] synUtils::setDVEInitPhase 1
+15:32:56    24 -->                                                                                             [tcl] gui_get_env SIMSETUP::SIMVPD
+15:32:56    25 --> ...  [tcl] synopsys::dump -type VPD -file /DCNFS/users/student/lkim/LAB6me/inter.vpd -locking
+15:32:56    26 --> ...      [tcl] synopsys::dump -autoflush on -fid VPD0
+15:32:56    27 --> ...          [tcl] set ::dve_fid VPD0
+15:32:56    28 --> ...              [tcl] synUtils::setDVEInitPhase 0
+15:32:56    29 --> ...                  [tcl] ucliCore::getToolPID
+15:32:56    30 --> ...                      [tcl] synUtils::sendTool -active _icl_setToolSocket /tmp/smlnp5vjHgU
+15:32:56    31 --> ...                          [tcl] synUtils::sendTool -active {_icl_start_rpc -version "P-2019.06-SP2-1_Full64" -sync_file /tmp/vcs_dve_rpc.lkim.23068}
+15:32:56    32 --> ...                              [tcl] synUtils::sendTool -active {_icl_createSharedMemory /tmp/vcs_dve_general.lkim.23068}
+15:32:56    33 --> ...                                  [tcl] dveMisc::vbusExpand tb
+15:32:56    34 --> ...                                      [tcl] config endofsim noexit
+15:32:56    35 --> ...                                          [tcl] config onfail enable all
+15:32:56    36 --> ...                                              [tcl] config syscaddplainmembers
+15:32:56    37 --> ...                                                  [tcl] config syscaddsourcenames
+15:32:56    38 --> ...                                                      [tcl] config syscaddstructtypes
+15:32:56    39 --> ...                                                          [tcl] synopsys::listing -disable
+15:33:21    40 --> ...                                                              [tcl] synopsys::dump -add {tb.clk tb.done tb.reqA tb.reqB tb.reset tb.respA tb.respB tb.sizeA tb.sizeB tb.start } -aggregates  -fid VPD0
+15:33:25    41 --> ...                                                                  [tcl] dveMisc::vbusExpand tb.datapath.count
+15:33:37    42 --> ...                                                                      [tcl] synopsys::dump -add {tb.datapath.count.counting tb.datapath.count.value } -aggregates  -fid VPD0
+15:33:38    43 --> ...                                                                          [tcl] dveMisc::vbusExpand tb.datapath.stateMach
+15:33:48    44 --> ...                                                                              [tcl] synopsys::dump -add {tb.datapath.stateMach.cState tb.datapath.stateMach.nState } -aggregates  -fid VPD0
+15:33:59    45 --> ...                                                                                  [tcl] synopsys::dump -add {tb.datapath.stateMach.cStart } -aggregates  -fid VPD0
+15:34:05    46 --> ...                                                                                      [tcl] dveMisc::vbusExpand tb.datapath.flipflop
+15:34:20    47 --> ...                                                                                          [tcl] synopsys::dump -add {tb.datapath.flipflop.Q } -aggregates  -fid VPD0
+15:34:42    48 --> ...                                                                                              [tcl] synopsys::dump -add {tb.datapath.count} -scope "." -depth 1 -fid VPD0
+15:34:52    49 --> ...                                                                                                  [tcl] synopsys::run
+15:34:52    50 --> ...  [tcl] set ucliGUI::state
+15:34:52    51 --> ...      [tcl] gui_update_simulator_buttons
+15:34:52    52 --> ...          [tcl] set ucliGUI::state
+15:34:52    53 --> ...              [tcl] set ucliGUI::state
+15:34:52    54 --> ...                  [tcl] set ucliGUI::state
+15:34:52    55 --> ...                      [tcl] catch {senv activeDomain} dveMisc::result 
+15:34:52    56 --> ...                          [tcl] set dveMisc::result
+15:34:52    57 --> ...                              [tcl] gui_update_simulator_buttons

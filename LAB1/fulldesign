@@ -1,0 +1,3 @@
+module fulldesign(sw0, sw1, sw2, sw3, form, outA, outB, outC, outD);
+
+endmodule
